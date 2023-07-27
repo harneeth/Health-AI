@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap');
+
+.result_area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.result_box {
+    margin-top: 20px;
+    background-color: #F3E095;
+    border-radius: 10px;
+    box-shadow: 0 0 50px 5px #F3E095;
+    width: 400px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#result_text {
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    margin: 20px;
+}
+
+.button {
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+button {
+    margin: 7px;
+    background-color: #9eb4cc;
+    color: #101e1e;
+    border-radius: 6px;
+    border: none;
+    height: 25px;
+    width: auto;
+    font-size: 15px;
+    font-family: "Inter", sans-serif;
+    transition-duration: 0.3s;
+    align-items: center;
+}
+
+button:hover {
+    box-shadow: 0 0 20px 5px var(--box-shadow-color);
+    -webkit-transform: scale(1.1);
+}
+
+button:active {
+    background-color: #F3E095;
+    color: #101e1e;
+}
+
+.go {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#go {
+    background-color: #FF7C7E;
+    color: #101e1e;
+    border-radius: 6px;
+    border: none;
+    height: 45px;
+    width: 70px;
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+    transition-duration: 0.3s;
+}
+
+#go:hover {
+    box-shadow: 0 0 20px 5px #FF7C7E;
+    -webkit-transform: scale(1.1);
+}
+
+#go:active {
+    transition-duration: 0.2s;
+    background-color: #F3E095;
+    color: #101e1e;
+    box-shadow: 0 0 20px 5px #F3E095;
+    -webkit-transform: scale(1.1);
+}
